@@ -1,0 +1,188 @@
+:root {
+  --background-color-hero: #2e2f42;
+  --background-color-footer: #2e2f42;
+}
+
+/* --------Общие правила body -------*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+/* -------------------------------------- */
+
+/* -----Сброс свойств STUDIO & PORTFOLIO---- */
+.list {
+  list-style: none; /*сброс точки в списках*/
+}
+
+.link {
+  text-decoration: none; /*сброс подчеркивания*/
+}
+/* ----------------------------------------- */
+
+/* -----header STUDIO & PORTFOLIO------ */
+
+.logotype {
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-style: normal; */
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  /* align-items: center; */
+  letter-spacing: 0.03em;
+  color: #2e2f42;
+  text-transform: uppercase;
+  /* text-decoration: none; */
+}
+
+.logo-color {
+  color: #4d5ae5;
+}
+
+/* -------portfolio------ */
+.menu-link {
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-style: normal; */
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #4d5ae5;
+  /* color: red; */
+}
+
+.contakt-link {
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.contakt-link:hover,
+.contakt-link:focus {
+  color: #4d5ae5;
+  /* color: red; */
+}
+
+/* end-----header STUDIO & PORTFOLIO----end-- */
+
+/* -----Загальні стилі STUDIO & PORTFOLIO------ */
+/* common ruls for STUDIO & PORTFOLIO */
+
+.main-title {
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-style: normal; */
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.secondery-title {
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-style: normal; */
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  /* identical to box height, or 111% */
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.description-title {
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-style: normal; */
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.12;
+  /* identical to box height, or 120% */
+  letter-spacing: 0.02em;
+  /* color: #2E2F42; */
+}
+
+.description-text {
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-style: normal; */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* or 150% */
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.modal-btn {
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-style: normal; */
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #404bbf;
+}
+
+/* end==================================end */
+
+/* -------  STUDIO only-----------*/
+
+.hero {
+  /* background-color: #2E2F42; */
+  background-color: var(--background-color-hero);
+}
+
+.our-team-section {
+  background-color: #f4f4fd;
+}
+/* end--------------------------- */
+
+/* -------  Portfolio only-----------*/
+.back-fone-text {
+  color: #f4f4fd;
+}
+/* -------  Portfolio only-----------*/
+
+/* ----footer-STUDIO & PORTFOLIO------- */
+
+.footer {
+  background-color: var(--background-color-footer);
+}
+
+/* наслідує з description-text */
+.footer .description-text {
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  /* font-size: 16px; */
+  /* line-height: 1.5; */
+  /* or 150% */
+  /* letter-spacing: 0.02em; */
+  color: #e7e9fc;
+}
+
+.footer .logotype {
+  color: #f4f4fd;
+}
+/* end==================================end */

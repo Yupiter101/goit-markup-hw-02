@@ -1,26 +1,23 @@
 :root {
-  --main-color:             #2e2f42;
-  --main-title-color:       #ffffff;
+  --main-color: #2e2f42;
+  --main-title-color: #ffffff;
   --color-description-text: #434455;
-  --btn-color:              #f4f4fd;
-  --secondery-color:        #4d5ae5;
+  --btn-color: #f4f4fd;
+  --secondery-color: #4d5ae5;
   /* --btn-backgr-color:       #f4f4fd; */
   /* --btn-color-hover:        #f4f4fd; */
-  
 
   /* --menu-color-hover:    #4d5ae5;
   --first-leter-logo-color: #4d5ae5;
   --btn-backgr-color-hover: #4d5ae5;
   --btn-color:              #4d5ae5; */
-  
-
 }
 
 /* --------Общие правила body -------*/
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+  /* font-style: normal; */
   /* color: #2e2f42; */
   color: var(--main-color);
 }
@@ -137,6 +134,24 @@ body {
   color: var(--color-description-text);
 }
 
+.hero-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
 .modal-btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -172,11 +187,6 @@ body {
   background-color: #ffffff;
 }
 /* end--------------------------- */
-
-
-
-
-
 
 /* ----footer-STUDIO & PORTFOLIO------- */
 
